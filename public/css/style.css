@@ -1,0 +1,48 @@
+
+.LOGO{
+    width: 25px;
+    height: auto;
+    position: absolute;
+    margin: 13px 0 0 110px;
+
+}
+
+
+@media only screen and (max-width: 764px) {
+    .LOGO{
+        width: 25px;
+        height: auto;
+        position: absolute;
+        margin: 13px 0 0 108px;
+    
+    }
+    }
+
+    @media only screen and (min-width: 764px) {
+        .LOGO{
+            width: 25px;
+            height: auto;
+            position: absolute;
+            margin: 13px 0 0 92px;
+        
+        }
+        }
+
+.navc{
+    background-color:rgb(62, 143, 236);
+}
+
+.navbar-brand {
+    font-style: bold;
+    color:rgb(255, 255, 255) !important;
+}
+
+.navbar-nav a{
+    font-style: bold;
+    color:rgb(255, 255, 255) !important;
+
+}
+
+.dropdown-menu{
+    background-color:black;
+}

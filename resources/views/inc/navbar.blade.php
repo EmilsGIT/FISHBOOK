@@ -1,4 +1,4 @@
-      <nav class="navbar navbar-inverse">
+      <nav class="navbar navbar-inverse navc">
           <div class="container">
               <div class="navbar-header">
 
@@ -11,8 +11,11 @@
                   </button>
 
                   <!-- Branding Image -->
+                  <div>
+                      <img src="PICS/FISHLOGO.png" class="LOGO">
+                  </div>
                   <a class="navbar-brand" href="{{ url('/') }}">
-                      {{ config('app.name', 'Laravel') }}
+                      {{ config('FISHBOOK', 'FISHBOOK') }}
                   </a>
               </div>
 
@@ -23,10 +26,10 @@
                   </ul>
 
                   <ul class="nav navbar-nav">
-                      <li><a href="/">Home</a></li>
-                      <li><a href="/about">About</a></li>
-                      <li><a href="/services">Services</a></li>
-                      <li><a href="/posts">Blog</a></li>
+                      <li><a href="/">Front Page</a></li>
+                      <li><a href="/about">Fish-Library</a></li>
+                      <li><a href="/posts">Fish-Feed</a></li>
+                  
                     </ul>
 
                   <!-- Right Side Of Navbar -->
@@ -42,7 +45,7 @@
                               </a>
 
                               <ul class="dropdown-menu" role="menu">
-                                  <li><a href="/home">Home</li>
+                                  <li><a href="/home">Upload Post</li>
                                   <li>
                                       <a href="{{ route('logout') }}"
                                           onclick="event.preventDefault();
